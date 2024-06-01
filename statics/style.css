@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
+
   --poppins: 'Poppins', sans-serif;
   --rubik: "Rubik", sans-serif;
   --orange_color: #FD6F00;
@@ -11,11 +12,19 @@
   --star_icon: url("data:image/svg+xml,%3Csvg width='35' height='35' viewBox='0 0 35 35' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15.9592 0.540761L21.4994 12.4858L34.0951 16.3233L22.1501 21.8635L18.3125 34.4592L12.7723 22.5142L0.176646 18.6766L12.1217 13.1364L15.9592 0.540761Z' fill='%23FD853A'/%3E%3C/svg%3E");
   --ash_star_icon: url('data:image/svg+xml,<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.3757 0.500967L21.9159 12.446L34.5116 16.2836L22.5666 21.8237L18.729 34.4194L13.1888 22.4744L0.59315 18.6368L12.5382 13.0966L16.3757 0.500967Z" fill="white" fill-opacity="0.2"/></svg>');
   --arrow_icon: url("data:image/svg+xml,%3Csvg width='20' height='21' viewBox='0 0 20 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.25 19.0217L18.75 1.52173' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M1.25 1.52173H18.75V19.0217' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  --social_icons_size: 36px;
+
   --fb_icon: url('data:image/svg+xml,<svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23clip0_2_99)"><path d="M32.4752 16.5094C32.4752 7.54155 25.2054 0.271729 16.2376 0.271729C7.26983 0.271729 0 7.54155 0 16.5094C0 24.6139 5.93783 31.3316 13.7005 32.5497V21.203H9.57766V16.5094H13.7005V12.932C13.7005 8.86245 16.1247 6.61455 19.8337 6.61455C21.6097 6.61455 23.4684 6.93169 23.4684 6.93169V10.9277H21.421C19.404 10.9277 18.7748 12.1794 18.7748 13.4648V16.5094H23.2782L22.5582 21.203H18.7748V32.5497C26.5374 31.3316 32.4752 24.6139 32.4752 16.5094Z" fill="white" fill-opacity="0.5"/></g><defs><clipPath id="clip0_2_99"><rect width="32.4752" height="32.4752" fill="white" transform="translate(0 0.271729)"/></clipPath></defs></svg>');
   --twitter: url('data:image/svg+xml,<svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23clip0_2_98)"><path d="M10.7247 29.7021C22.9765 29.7021 29.6796 19.5491 29.6796 10.7472C29.6796 10.4617 29.6732 10.17 29.6605 9.88454C30.9645 8.94154 32.0898 7.7735 32.9835 6.43531C31.7691 6.97562 30.4798 7.3285 29.1595 7.48188C30.5496 6.64858 31.5905 5.33951 32.0892 3.79733C30.7814 4.5724 29.3512 5.11914 27.8598 5.41412C26.855 4.34643 25.5264 3.63949 24.0795 3.4026C22.6326 3.16572 21.1479 3.41207 19.8551 4.10359C18.5622 4.7951 17.5332 5.89326 16.927 7.22827C16.3209 8.56328 16.1714 10.0608 16.5017 11.4893C13.8536 11.3564 11.2629 10.6685 8.89771 9.47013C6.5325 8.27178 4.44551 6.58976 2.77205 4.5331C1.92151 5.99953 1.66125 7.73479 2.04415 9.38622C2.42705 11.0376 3.42439 12.4813 4.83347 13.4238C3.77562 13.3902 2.74094 13.1054 1.81492 12.5929V12.6754C1.81397 14.2143 2.34599 15.706 3.32053 16.897C4.29508 18.088 5.65201 18.9048 7.16065 19.2085C6.18072 19.4766 5.15224 19.5157 4.15479 19.3227C4.5805 20.6461 5.40878 21.8037 6.52403 22.6337C7.63928 23.4638 8.98586 23.925 10.3758 23.9529C8.01607 25.8065 5.10108 26.8119 2.10035 26.8072C1.56819 26.8064 1.03656 26.7738 0.508301 26.7095C3.55672 28.6652 7.10285 29.7039 10.7247 29.7021Z" fill="white" fill-opacity="0.5"/></g><defs><clipPath id="clip0_2_98"><rect width="32.4752" height="32.4752" fill="white" transform="translate(0.508301 0.271606)"/></clipPath></defs></svg>');
   --insta_icon: url('data:image/svg+xml,<svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23clip0_2_97)"><path d="M16.2542 3.19565C20.5927 3.19565 21.1065 3.21468 22.8127 3.29079C24.3984 3.36056 25.2547 3.62696 25.8255 3.84896C26.5803 4.14073 27.1258 4.49593 27.6903 5.06044C28.2612 5.63129 28.61 6.17043 28.9018 6.92523C29.1238 7.49608 29.3902 8.3587 29.46 9.93807C29.5361 11.6506 29.5551 12.1644 29.5551 16.4965C29.5551 20.835 29.5361 21.3488 29.46 23.055C29.3902 24.6407 29.1238 25.497 28.9018 26.0679C28.61 26.8227 28.2548 27.3681 27.6903 27.9327C27.1195 28.5035 26.5803 28.8524 25.8255 29.1441C25.2547 29.3661 24.3921 29.6325 22.8127 29.7023C21.1001 29.7784 20.5864 29.7974 16.2542 29.7974C11.9157 29.7974 11.402 29.7784 9.69575 29.7023C8.11004 29.6325 7.25376 29.3661 6.68291 29.1441C5.92811 28.8524 5.38263 28.4972 4.81812 27.9327C4.24726 27.3618 3.89841 26.8227 3.60664 26.0679C3.38464 25.497 3.11824 24.6344 3.04847 23.055C2.97236 21.3425 2.95333 20.8287 2.95333 16.4965C2.95333 12.1581 2.97236 11.6443 3.04847 9.93807C3.11824 8.35236 3.38464 7.49608 3.60664 6.92523C3.89841 6.17043 4.25361 5.62495 4.81812 5.06044C5.38897 4.48958 5.92811 4.14073 6.68291 3.84896C7.25376 3.62696 8.11639 3.36056 9.69575 3.29079C11.402 3.21468 11.9157 3.19565 16.2542 3.19565ZM16.2542 0.271606C11.846 0.271606 11.2941 0.290635 9.56255 0.366749C7.8373 0.442863 6.65119 0.721947 5.62366 1.12154C4.55172 1.54017 3.6447 2.092 2.74401 2.99902C1.83699 3.8997 1.28517 4.80672 0.86654 5.87232C0.466942 6.9062 0.187858 8.08596 0.111744 9.81121C0.03563 11.5491 0.0166016 12.101 0.0166016 16.5092C0.0166016 20.9175 0.03563 21.4693 0.111744 23.2009C0.187858 24.9262 0.466942 26.1123 0.86654 27.1398C1.28517 28.2117 1.83699 29.1188 2.74401 30.0194C3.6447 30.9201 4.55172 31.4783 5.61731 31.8906C6.65119 32.2902 7.83096 32.5693 9.5562 32.6454C11.2878 32.7215 11.8396 32.7405 16.2479 32.7405C20.6561 32.7405 21.208 32.7215 22.9396 32.6454C24.6648 32.5693 25.8509 32.2902 26.8785 31.8906C27.944 31.4783 28.8511 30.9201 29.7517 30.0194C30.6524 29.1188 31.2106 28.2117 31.6229 27.1461C32.0225 26.1123 32.3016 24.9325 32.3777 23.2072C32.4538 21.4757 32.4728 20.9238 32.4728 16.5156C32.4728 12.1073 32.4538 11.5555 32.3777 9.8239C32.3016 8.09865 32.0225 6.91254 31.6229 5.885C31.2233 4.80672 30.6715 3.8997 29.7644 2.99902C28.8638 2.09834 27.9567 1.54017 26.8911 1.12789C25.8573 0.72829 24.6775 0.449205 22.9522 0.373092C21.2143 0.290635 20.6625 0.271606 16.2542 0.271606Z" fill="white" fill-opacity="0.5"/><path d="M16.2541 8.16846C11.6493 8.16846 7.91333 11.9044 7.91333 16.5093C7.91333 21.1142 11.6493 24.8501 16.2541 24.8501C20.859 24.8501 24.595 21.1142 24.595 16.5093C24.595 11.9044 20.859 8.16846 16.2541 8.16846ZM16.2541 21.9197C13.2667 21.9197 10.8437 19.4967 10.8437 16.5093C10.8437 13.5218 13.2667 11.0988 16.2541 11.0988C19.2416 11.0988 21.6646 13.5218 21.6646 16.5093C21.6646 19.4967 19.2416 21.9197 16.2541 21.9197Z" fill="white" fill-opacity="0.5"/><path d="M26.872 7.83848C26.872 8.91677 25.9967 9.78573 24.9248 9.78573C23.8465 9.78573 22.9775 8.91042 22.9775 7.83848C22.9775 6.7602 23.8528 5.89124 24.9248 5.89124C25.9967 5.89124 26.872 6.76655 26.872 7.83848Z" fill="white" fill-opacity="0.5"/></g><defs><clipPath id="clip0_2_97"><rect width="32.4752" height="32.4752" fill="white" transform="translate(0.0166016 0.271606)"/></clipPath></defs></svg>');
   --linkedin_icon: url('data:image/svg+xml,<svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23clip0_2_96)"><path d="M30.596 0.271606H2.92224C1.59659 0.271606 0.524658 1.31817 0.524658 2.61211V30.4C0.524658 31.6939 1.59659 32.7469 2.92224 32.7469H30.596C31.9216 32.7469 32.9999 31.6939 32.9999 30.4064V2.61211C32.9999 1.31817 31.9216 0.271606 30.596 0.271606ZM10.1594 27.9453H5.33886V12.4435H10.1594V27.9453ZM7.74913 10.3313C6.20148 10.3313 4.95195 9.08179 4.95195 7.54048C4.95195 5.99917 6.20148 4.74964 7.74913 4.74964C9.29044 4.74964 10.54 5.99917 10.54 7.54048C10.54 9.07544 9.29044 10.3313 7.74913 10.3313ZM28.1984 27.9453H23.3842V20.4101C23.3842 18.615 23.3525 16.2999 20.8788 16.2999C18.3734 16.2999 17.9928 18.2598 17.9928 20.2832V27.9453H13.1849V12.4435H17.8025V14.562H17.8659C18.5066 13.3442 20.0796 12.0566 22.4201 12.0566C27.2977 12.0566 28.1984 15.266 28.1984 19.4396V27.9453Z" fill="white" fill-opacity="0.5"/></g><defs><clipPath id="clip0_2_96"><rect width="32.4752" height="32.4752" fill="white" transform="translate(0.524658 0.271606)"/></clipPath></defs></svg>');
+
+  --fb_footer_icon: url('data:image/svg+xml,<svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32.4752 16.763C32.4752 7.79522 25.2054 0.525391 16.2376 0.525391C7.26983 0.525391 0 7.79522 0 16.763C0 24.8676 5.93783 31.5852 13.7005 32.8034V21.4567H9.57766V16.763H13.7005V13.1857C13.7005 9.11611 16.1247 6.86821 19.8337 6.86821C21.6097 6.86821 23.4684 7.18535 23.4684 7.18535V11.1813H21.421C19.404 11.1813 18.7748 12.4331 18.7748 13.7185V16.763H23.2782L22.5582 21.4567H18.7748V32.8034C26.5374 31.5852 32.4752 24.8676 32.4752 16.763Z" fill="white"/></svg>');
+  --twitter_footer_icon: url('data:image/svg+xml,<svg width="33" height="27" viewBox="0 0 33 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.7242 26.956C22.976 26.956 29.6791 16.803 29.6791 8.00107C29.6791 7.71564 29.6727 7.42387 29.6601 7.13845C30.964 6.19545 32.0893 5.02741 32.9831 3.68922C31.7687 4.22953 30.4793 4.5824 29.159 4.73579C30.5491 3.90249 31.59 2.59341 32.0887 1.05124C30.7809 1.8263 29.3507 2.37304 27.8593 2.66802C26.8545 1.60033 25.5259 0.893395 24.079 0.656508C22.6321 0.419621 21.1474 0.66598 19.8546 1.35749C18.5617 2.04901 17.5327 3.14716 16.9265 4.48217C16.3204 5.81719 16.1709 7.3147 16.5012 8.74318C13.8531 8.61029 11.2624 7.92238 8.89723 6.72403C6.53201 5.52569 4.44502 3.84366 2.77157 1.78701C1.92103 3.25344 1.66076 4.9887 2.04366 6.64013C2.42656 8.29156 3.4239 9.73523 4.83298 10.6777C3.77513 10.6442 2.74045 10.3593 1.81443 9.84683V9.92929C1.81349 11.4682 2.3455 12.9599 3.32005 14.1509C4.29459 15.342 5.65152 16.1587 7.16016 16.4624C6.18023 16.7305 5.15175 16.7696 4.1543 16.5766C4.58001 17.9 5.40829 19.0576 6.52354 19.8876C7.63879 20.7177 8.98537 21.1789 10.3753 21.2068C8.01558 23.0604 5.10059 24.0659 2.09986 24.0611C1.56771 24.0603 1.03608 24.0277 0.507812 23.9634C3.55623 25.9191 7.10236 26.9579 10.7242 26.956Z" fill="white"/></svg>');
+  --insta_footer_icon: url('data:image/svg+xml,<svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23clip0_2_223)"><path d="M16.2542 3.44943C20.5927 3.44943 21.1065 3.46846 22.8127 3.54457C24.3984 3.61434 25.2547 3.88074 25.8255 4.10274C26.5803 4.39451 27.1258 4.74971 27.6903 5.31422C28.2612 5.88507 28.61 6.42421 28.9018 7.17901C29.1238 7.74986 29.3902 8.61249 29.46 10.1918C29.5361 11.9044 29.5551 12.4182 29.5551 16.7503C29.5551 21.0888 29.5361 21.6026 29.46 23.3088C29.3902 24.8945 29.1238 25.7508 28.9018 26.3216C28.61 27.0764 28.2548 27.6219 27.6903 28.1864C27.1195 28.7573 26.5803 29.1061 25.8255 29.3979C25.2547 29.6199 24.3921 29.8863 22.8127 29.9561C21.1001 30.0322 20.5864 30.0512 16.2542 30.0512C11.9157 30.0512 11.402 30.0322 9.69575 29.9561C8.11004 29.8863 7.25376 29.6199 6.68291 29.3979C5.92811 29.1061 5.38263 28.7509 4.81812 28.1864C4.24726 27.6156 3.89841 27.0764 3.60664 26.3216C3.38464 25.7508 3.11824 24.8882 3.04847 23.3088C2.97236 21.5962 2.95333 21.0825 2.95333 16.7503C2.95333 12.4118 2.97236 11.8981 3.04847 10.1918C3.11824 8.60614 3.38464 7.74986 3.60664 7.17901C3.89841 6.42421 4.25361 5.87873 4.81812 5.31422C5.38897 4.74337 5.92811 4.39451 6.68291 4.10274C7.25376 3.88074 8.11639 3.61434 9.69575 3.54457C11.402 3.46846 11.9157 3.44943 16.2542 3.44943ZM16.2542 0.525391C11.846 0.525391 11.2941 0.544419 9.56255 0.620533C7.8373 0.696647 6.65119 0.975731 5.62366 1.37533C4.55172 1.79395 3.6447 2.34578 2.74401 3.2528C1.83699 4.15348 1.28517 5.06051 0.86654 6.1261C0.466942 7.15998 0.187858 8.33975 0.111744 10.065C0.03563 11.8029 0.0166016 12.3548 0.0166016 16.763C0.0166016 21.1713 0.03563 21.7231 0.111744 23.4547C0.187858 25.1799 0.466942 26.366 0.86654 27.3936C1.28517 28.4655 1.83699 29.3725 2.74401 30.2732C3.6447 31.1739 4.55172 31.7321 5.61731 32.1444C6.65119 32.544 7.83096 32.823 9.5562 32.8992C11.2878 32.9753 11.8396 32.9943 16.2479 32.9943C20.6561 32.9943 21.208 32.9753 22.9396 32.8992C24.6648 32.823 25.8509 32.544 26.8785 32.1444C27.944 31.7321 28.8511 31.1739 29.7517 30.2732C30.6524 29.3725 31.2106 28.4655 31.6229 27.3999C32.0225 26.366 32.3016 25.1863 32.3777 23.461C32.4538 21.7294 32.4728 21.1776 32.4728 16.7694C32.4728 12.3611 32.4538 11.8093 32.3777 10.0777C32.3016 8.35243 32.0225 7.16632 31.6229 6.13879C31.2233 5.06051 30.6715 4.15348 29.7644 3.2528C28.8638 2.35212 27.9567 1.79395 26.8911 1.38167C25.8573 0.982074 24.6775 0.70299 22.9522 0.626876C21.2143 0.544419 20.6625 0.525391 16.2542 0.525391Z" fill="white"/><path d="M16.2541 8.42212C11.6493 8.42212 7.91333 12.158 7.91333 16.7629C7.91333 21.3678 11.6493 25.1037 16.2541 25.1037C20.859 25.1037 24.595 21.3678 24.595 16.7629C24.595 12.158 20.859 8.42212 16.2541 8.42212ZM16.2541 22.1734C13.2667 22.1734 10.8437 19.7504 10.8437 16.7629C10.8437 13.7755 13.2667 11.3525 16.2541 11.3525C19.2416 11.3525 21.6646 13.7755 21.6646 16.7629C21.6646 19.7504 19.2416 22.1734 16.2541 22.1734Z" fill="white"/><path d="M26.872 8.09227C26.872 9.17055 25.9967 10.0395 24.9248 10.0395C23.8465 10.0395 22.9775 9.16421 22.9775 8.09227C22.9775 7.01399 23.8528 6.14502 24.9248 6.14502C25.9967 6.14502 26.872 7.02033 26.872 8.09227Z" fill="white"/></g><defs><clipPath id="clip0_2_223"><rect width="32.4752" height="32.4752" fill="white" transform="translate(0.0166016 0.525391)"/></clipPath></defs></svg>');
+  --linkedin_footer_icon: url('data:image/svg+xml,<svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30.5957 0.525391H2.922C1.59635 0.525391 0.524414 1.57196 0.524414 2.86589V30.6538C0.524414 31.9477 1.59635 33.0006 2.922 33.0006H30.5957C31.9214 33.0006 32.9997 31.9477 32.9997 30.6601V2.86589C32.9997 1.57196 31.9214 0.525391 30.5957 0.525391ZM10.1592 28.1991H5.33862V12.6973H10.1592V28.1991ZM7.74889 10.5851C6.20124 10.5851 4.9517 9.33557 4.9517 7.79426C4.9517 6.25296 6.20124 5.00342 7.74889 5.00342C9.29019 5.00342 10.5397 6.25296 10.5397 7.79426C10.5397 9.32923 9.29019 10.5851 7.74889 10.5851ZM28.1981 28.1991H23.3839V20.6638C23.3839 18.8688 23.3522 16.5537 20.8785 16.5537C18.3731 16.5537 17.9925 18.5136 17.9925 20.537V28.1991H13.1847V12.6973H17.8023V14.8158H17.8657C18.5063 13.5979 20.0793 12.3104 22.4198 12.3104C27.2975 12.3104 28.1981 15.5198 28.1981 19.6934V28.1991Z" fill="white"/></svg>');
+
+  --social_icons_size: 36px;
+  --footer_icon_size: 33px;
 }
 
 * {
@@ -288,7 +297,6 @@ body {
 }
 
 .fb_icon {
-
   background-image: var(--fb_icon);
   background-size: contain;
   background-repeat: no-repeat;
@@ -645,7 +653,7 @@ hr {
 
   background-color: #000;
   color: #fff;
-  padding: 11px 20px;
+  padding: 9px 20px;
   font-family: var(--rubik);
   align-items: center;
   justify-content: center;
@@ -721,4 +729,316 @@ hr {
   width: 50%;
   margin-top: -30.5vw;
   margin-left: 5.5vw;
+}
+
+#contact_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 8vw;
+  gap: 2vw;
+}
+
+#contact_form_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 70%;
+  padding: 3vw 0vw 1vw;
+}
+
+#contact_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  background-color: #34261b;
+  width: 75%;
+}
+
+.form_row {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  width: 100%;
+}
+
+input, textarea {
+  font-family: var(--rubik);
+  background-color: #34261b;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  padding: 10px 0px;
+  text-align: left;
+}
+
+input[type="text"] {
+  width: 95%;
+  margin-right: 4vw;
+}
+
+textarea{
+  padding: 2vw 0px 2.2vw;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #fff;
+}
+
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#contact_button{
+  background-color: var(--orange_color);
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 0.7vw 2vw;
+  margin: 1vw 0px;
+  font-family: var(--rubik);
+}
+
+#footer_container {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  justify-content:center;
+  align-items: center;
+  padding: 4.5vw 0px 3vw;
+  margin-top: 2vw;
+}
+
+#footer_container > h1 {
+  color: var(--orange_color);
+  font-family: var(--poppins);
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.short_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  font-size: 21px;
+  font-weight: 400;
+  margin: 3vw 0px;
+}
+
+.social_icons_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 1vw;
+}
+
+.fb_footer_icon {
+  background-image: var(--fb_footer_icon);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: var(--footer_icon_size);
+  height: var(--footer_icon_size);
+  display: inline-block;
+}
+
+.twitter_footer_icon {
+  background-image: var(--twitter_footer_icon);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: var(--footer_icon_size);
+  height: var(--footer_icon_size);
+  display: inline-block;
+}
+
+.insta_footer_icon {
+  background-image: var(--insta_footer_icon);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: var(--footer_icon_size);
+  height: var(--footer_icon_size);
+  display: inline-block;
+}
+
+.linkedin_footer_icon {
+  background-image: var(--linkedin_footer_icon);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: var(--footer_icon_size);
+  height: var(--footer_icon_size);
+  display: inline-block;
+}
+
+.long_footer_bar{
+  background-color: #121212;
+  height: 4vw;
+  width: 100%;
+}
+
+.long_footer_bar > p {
+  font-family: var(--poppins);
+  color: #fff;
+  font-size: 21px;
+  font-weight: 400;
+  text-align: center;
+  padding: 1vw 0px;
+}
+
+.long_footer_bar > p > span {
+  color: var(--orange_color);
+}
+
+
+@media (max-width: 768px) {
+
+  #whole_nav_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #logo {
+    margin-bottom: 10px;
+  }
+
+  #nav_links {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+    font-size: 2em;
+  }
+
+  #small_nav_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  #hero_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #hero_text {
+    margin: 20px;
+  }
+
+  #hero_image {
+    display: none;
+  }
+
+  #hero_bar_rectangle {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  #about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about_me_left, #about_me_right {
+    width: 100%;
+    text-align: center;
+  }
+
+  #experience_box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #experience_box_left, #experience_box_right {
+    width: 100%;
+  }
+
+  .experience_details_container {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  #awards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #award_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .award_container {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  #my_portfolio_section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left_image_right_text, .right_image_left_text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image_container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .right_text, .left_text {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  #contact_form {
+    width: 100%;
+    text-align: center;
+  }
+
+  #contact_body {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .form_row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form_row input, .form_row textarea {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .custom-file-upload {
+    width: 100%;
+    text-align: center;
+  }
+
+  #contact_button {
+    width: 100%;
+  }
+
 }
